@@ -1,0 +1,14 @@
+# One entry per dataset. Fill every field before using a dataset in an experiment.
+# Validation criteria are documented in docs/dataset_validation.md
+datasets:
+  - name: TODO_dataset_name
+    layer: transaction            # transaction | graph | aml | agent | kyc | api
+    provenance: TODO              # real | real-derived/anonymised | simulated | synthetic
+    label_source: TODO            # how fraud/illicit labels were obtained
+    size: TODO
+    time_span: TODO
+    licence: TODO
+    url: TODO
+    known_limitations: TODO
+    validity_notes: TODO          # result of applying the validation checklist
+    status: not_downloaded        # not_downloaded | downloaded | validated | rejected

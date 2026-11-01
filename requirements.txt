@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+pydantic
+pyyaml
+fastapi
+uvicorn
+httpx
+networkx
+pytest
+matplotlib
+# add as needed: xgboost, torch, torch-geometric, neo4j, shap

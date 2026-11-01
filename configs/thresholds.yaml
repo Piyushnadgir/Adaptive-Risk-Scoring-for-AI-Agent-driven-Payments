@@ -1,0 +1,7 @@
+# Placeholder values; tune on validation data, do not hard-code in source.
+decision:
+  allow_below: 0.30
+  restrict_below: 0.60
+  review_below: 0.85      # at or above this: REVOKE
+tiers:
+  early_exit_below: 0.15  # skip Tier 3 if risk this low after Tier 1-2

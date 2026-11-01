@@ -1,0 +1,3 @@
+name: agent_compromise
+note: trust falls 92 -> 73 -> 48 -> 21; authority shrinks 10000 -> 5000 -> 1000 -> human approval -> revoked
+expected_decision: REVOKE

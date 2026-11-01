@@ -1,0 +1,8 @@
+# Component weights for fusion (Stage 8). Initial guesses; to be learned or tuned.
+weights:
+  transaction: 1.0
+  behaviour: 1.0
+  network: 1.0
+  aml: 1.0
+  intent: 1.0
+  api: 1.0
